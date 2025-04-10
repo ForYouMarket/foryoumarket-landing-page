@@ -1,0 +1,575 @@
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 0%;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  backdrop-filter: blur(10px);
+  margin: 0%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+
+header > .left-section > img {
+  width: 3.5rem;
+  border-radius: 50%;
+}
+
+header > .left-section > p {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  color: #fffffffb;
+  font-family: Josefin Sans;
+}
+
+header > .left-section {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
+  /* margin-top: -.5rem; */
+  justify-content: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Ubuntu;
+  text-align: center;
+  /* border: 1px solid green; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li a:hover {
+  text-decoration: none;
+  color: white;
+  font-family: Ubuntu;
+  background-color: green;
+  text-align: center;
+  border: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.container li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Ubuntu;
+  text-align: center;
+  border: 1px solid green;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  background-color: green;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.mini-burg {
+  display: none;
+}
+
+/* ul li:hover{
+              text-decoration: none;
+              color: #ffffff;  
+              border: 1px solid green;
+              padding: 1rem;
+              font-family: Ubuntu;
+              
+            } */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first > p {
+  z-index: 2;
+}
+
+.slider .slides .slide img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.slider {
+  width: 100vw;
+  height: 100lvh;
+
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 350px;
+  display: flex;
+}
+.slides > input {
+  display: none;
+}
+
+.sliderr {
+  background-image: url(./images/fresh-corn-plants-sunset-summer-day_130147-131.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100lvw;
+  gap: 1rem;
+  animation: slide 90s infinite;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100lvh;
+  transition: 2s;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  padding-top: 14rem;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+
+  margin-left: 1rem;
+}
+
+.black-cover {
+  display: flex;
+  width: 100vw;
+
+  height: 100vh;
+  background-color: #00000083;
+  flex-direction: column-reverse;
+  justify-content: left;
+  align-items: left;
+  padding: 4rem;
+  margin-top: -3rem;
+}
+
+.image {
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.container > h4 {
+  font-family: Ubuntu;
+  color: rgb(255, 255, 255);
+  text-shadow: #8a8888;
+  font-size: 4rem;
+}
+
+.container > p {
+  margin-top: -4rem;
+  font-weight: 400;
+  font-family: Ubuntu;
+  color: rgb(224, 224, 224);
+  font-size: 1.1rem;
+}
+
+.slid {
+  background-image: url(./images/fresh-tomato-nature-healthy-gourmet-vegetable-meal-generated-by-ai_188544-151550.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100lvw;
+  animation: slide 50s infinite;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100lvh;
+  transition: 2s;
+}
+
+.slyde {
+  background-image: url(./images/rows-diverse-crops-organic-farm-featuring-rich-greens-earthy-browns-represent-sustainability_157027-3013.avif);
+  background-position: center;
+  animation: slide 50s infinite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100lvw;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100lvh;
+  transition: 2s;
+}
+
+.slyd {
+  background-image: url(./images/cows-meadow_1308-41455.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100lvw;
+  gap: 1rem;
+  animation: slide 50s infinite;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100lvh;
+  transition: 2s;
+}
+
+.slide img {
+  width: 800px;
+  height: 500px;
+}
+
+.navigation-manual {
+  position: absolute;
+  width: 10px;
+  margin-left: 10rem;
+  gap: 1rem;
+  margin-top: 30rem;
+  display: flex;
+  margin-left: 50vw;
+
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #ffffff;
+  padding: 5px;
+  display: none;
+  border-radius: 20rem;
+  cursor: pointer;
+  margin: auto;
+  transition: 1s;
+  /* position: absolute; */
+  /* bottom: 4; */
+  /* margin-left: 50%; */
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 1px;
+}
+
+.manual-btn:hover {
+  background: green;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+
+.navigation-auto {
+  position: absolute;
+  width: 10px;
+  margin-left: 10.2rem;
+  gap: 1rem;
+  margin-top: 51.9rem;
+  display: flex;
+  margin-left: 50vw;
+  justify-content: center;
+}
+
+.navigation-auto div {
+  border: 2px solid #ffffff;
+  padding: 5px;
+  display: none;
+  border-radius: 20rem;
+  cursor: pointer;
+  margin: auto;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 1px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: green;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: green;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: green;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: green;
+}
+
+.products-preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/grass-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  gap: 1rem;
+  color: white;
+  font-family: Fredoka;
+  padding-bottom: 1rem;
+  height: 100vh;
+}
+
+.products-preview h2 {
+  font-size: 3rem;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+
+  backdrop-filter: blur(100px);
+  width: 100%;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 1rem;
+  gap: 1rem;
+  max-width: fit-content;
+}
+
+.product-card {
+  width: 30rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product-card img {
+  object-fit: fill;
+  object-position: center;
+}
+
+.product-card > img:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.btn-a {
+  text-decoration: none;
+  width: fit-content;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: white;
+  color: rgba(9, 94, 5, 0.91);
+  font-family: Fredoka;
+  font-size: 1.5rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 2rem;
+}
+
+.btn-a:hover {
+  background-color: rgba(11, 211, 0, 0.91);
+  color: white;
+
+  transition: 0.5s;
+  box-shadow: 0 6px 12px rgba(6, 93, 0, 0.681);
+}
+
+.our-services {
+  display: flex;
+  background-image: url(./images/our-service.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(1000px);
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  height: fit-content;
+  width: 100vw;
+}
+
+.service-container {
+  background-color: rgba(0, 0, 0, 0.784);
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  height: fit-content;
+  width: 100vw;
+  display: flex;
+  height: 100vh;
+}
+
+.service-container h2 {
+  font-size: 3rem;
+  color: white;
+  font-family: Fredoka;
+}
+
+.our-service-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.our-card {
+  width: 30rem;
+  height: 20rem;
+  background-color: #ffffff;
+  color: rgb(6, 172, 6);
+  border-radius: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: 4px rgb(6, 172, 6) solid;
+  text-align: center;
+  font-family: Fredoka;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.text-info {
+  display: none;
+}
+
+.our-card h3 {
+  font-size: 3rem;
+}
+
+.instruct {
+  font-size: 1rem;
+  color: #8a8888;
+  font-family: inherit;
+}
+
+.our-card:hover {
+  h3 {
+    display: none;
+  }
+  .instruct {
+    display: none;
+  }
+  .text-info {
+    font-weight: 500;
+    display: block;
+    font-family: Fredoka;
+    font-size: 1.5rem;
+    color: inherit;
+  }
+
+  background-color: rgb(6, 172, 6);
+  cursor: pointer;
+  color: white;
+  border: 4px rgb(255, 255, 255) solid;
+  transition: 0.1s;
+}
+
+.second-card {
+  scale: 1.1;
+}
+
+.btn-up {
+  text-decoration: none;
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  border: 3px solid white;
+  right: 0;
+  background-color: rgb(6, 172, 6);
+  border-radius: 1rem;
+  font-weight: 600;
+  z-index: 2;
+  bottom: 0;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  /* top: 50%; */
+  font-family: Fredoka;
+  justify-content: center;
+
+  align-items: center;
+  display: flex;
+  font-size: 3rem;
+}
+.btn-up:hover {
+  background-color: white;
+  border: 3px solid rgb(6, 172, 6);
+  color: rgb(6, 172, 6);
+}
