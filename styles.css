@@ -18,6 +18,31 @@ header {
   align-items: center;
 }
 
+header > a {
+  text-decoration: none;
+  width: fit-content;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: white;
+  color: rgba(9, 94, 5, 0.91);
+  font-family: Fredoka;
+  font-size: 1rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+header > a:hover {
+  background-color: rgba(11, 211, 0, 0.91);
+  color: white;
+
+  transition: 0.5s;
+  box-shadow: 0 6px 12px rgba(6, 93, 0, 0.681);
+}
+
 html {
   scroll-behavior: smooth;
   transition: 0.5s;
