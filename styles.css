@@ -40,7 +40,7 @@ header > a:hover {
   color: white;
 
   transition: 0.5s;
-  box-shadow: 0 6px 12px rgba(6, 93, 0, 0.681);
+  box-shadow: 0 6px 12px rgba(11, 211, 0, 0.91);
 }
 
 html {
@@ -98,7 +98,7 @@ ul li a:hover {
   text-decoration: none;
   color: white;
   font-family: Ubuntu;
-  background-color: green;
+  background-color: rgba(11, 211, 0, 0.91);
   text-align: center;
   border: 1px solid white;
   padding-top: 10px;
@@ -116,7 +116,7 @@ ul li a:hover {
   color: #ffffff;
   font-family: Ubuntu;
   text-align: center;
-  border: 1px solid green;
+  border: 1px solid rgba(11, 211, 0, 0.91);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -131,7 +131,7 @@ li a:hover {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-family: Ubuntu;
-  background-color: green;
+  background-color: rgba(11, 211, 0, 0.91);
   text-align: center;
   border: 1px solid rgb(255, 255, 255);
   padding-top: 10px;
@@ -197,7 +197,7 @@ body {
 }
 
 .sliderr {
-  background-image: url(./images/fresh-corn-plants-sunset-summer-day_130147-131.jpg);
+  background-image: url(assets/images/fresh-corn-plants-sunset-summer-day_130147-131.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -255,7 +255,7 @@ body {
 }
 
 .slid {
-  background-image: url(./images/fresh-tomato-nature-healthy-gourmet-vegetable-meal-generated-by-ai_188544-151550.avif);
+  background-image: url(assets/images/fresh-tomato-nature-healthy-gourmet-vegetable-meal-generated-by-ai_188544-151550.avif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -269,7 +269,7 @@ body {
 }
 
 .slyde {
-  background-image: url(./images/rows-diverse-crops-organic-farm-featuring-rich-greens-earthy-browns-represent-sustainability_157027-3013.avif);
+  background-image: url(assets/images/rows-diverse-crops-organic-farm-featuring-rich-greens-earthy-browns-represent-sustainability_157027-3013.avif);
   background-position: center;
   animation: slide 50s infinite;
   background-size: cover;
@@ -283,7 +283,7 @@ body {
 }
 
 .slyd {
-  background-image: url(./images/cows-meadow_1308-41455.avif);
+  background-image: url(assets/images/cows-meadow_1308-41455.avif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -331,7 +331,7 @@ body {
 }
 
 .manual-btn:hover {
-  background: green;
+  background: rgba(11, 211, 0, 0.91);
 }
 
 #radio1:checked ~ .first {
@@ -393,7 +393,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./images/grass-bg.jpg);
+  background-image: url(assets/images/grass-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -451,7 +451,7 @@ body {
   width: fit-content;
   padding: 1rem 2rem 1rem 2rem;
   background-color: white;
-  color: rgba(9, 94, 5, 0.91);
+  color: rgba(11, 211, 0, 0.91);
   font-family: Fredoka;
   font-size: 1.5rem;
   display: flex;
@@ -468,12 +468,12 @@ body {
   color: white;
 
   transition: 0.5s;
-  box-shadow: 0 6px 12px rgba(6, 93, 0, 0.681);
+  box-shadow: 0 6px 12px rgba(11, 211, 0, 0.91);
 }
 
 .our-services {
   display: flex;
-  background-image: url(./images/our-service.avif);
+  background-image: url(assets/images/our-service.avif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
