@@ -1,0 +1,86 @@
+:root {
+    --primary-color: limegreen;
+    --bg : #000;
+}
+
+
+body {
+    color: var(--bg);
+}
+
+
+
+header {
+    background-color: var(--bg);
+    color: var(--bg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1100;
+    width: 100%;
+    display: flex;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px var(--primary-color);
+    backdrop-filter: blur(10px);
+  }
+  
+  header h1 {
+    color: var(--primary-color);
+    font-size: 26px;
+  }
+  
+  nav {
+    margin-right: 10px;
+  
+  }
+  
+  nav a {
+    position: relative;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px; /* space below text */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3.5px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    transition: width 0.4s ease;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: var(--primary-color);
+  }
+  
