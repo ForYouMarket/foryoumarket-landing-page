@@ -18,6 +18,10 @@ header {
   align-items: center;
 }
 
+img {
+  cursor: pointer;
+}
+
 header > a {
   text-decoration: none;
   width: fit-content;
